@@ -35,6 +35,7 @@ class f_difficulty:
         try:
             m21.corpus.parse("./"+ self.music_file)
         except OSError:
+            print("MusicXMLではありません")
 
 def main():
     #ファイルの読み込み
