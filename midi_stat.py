@@ -3,6 +3,7 @@ import mido
 import numpy as np
 import pandas as pd
 import ngram
+import nltk
 from matplotlib.pylab import plot as plt
 from collections import defaultdict,Counter
 
@@ -14,15 +15,24 @@ class midi_music_sheet():
         # デルタタイム
         self.delta = 240
         # スケール
-        self.scale = ("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B", )
+        self.scale = ("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B")
+        # その楽譜の音のシーケンス
+        self.sequence = []
+
         # スケールの集計
         self.scale_count = {"C":0,"C#":0,"D":0,"D#":0,"E":0,"F":0,"F#":0,"G":0,"G#":0,"A":0,"A#":0,"B":0}
         #　音価のカウント
         self.dur_count = {}
-        #　音のbi-gram
-        self.bi_gram = ngram.NGram(N=2)
+        #　音高のbi-gram
+        self.pitch_bi_gram = nltk.bigrams()
 
+        #  音価のbi-gram
+        self.dur_bi_gram = ngram.NGram(N=2)
+
+        # すでに楽譜を読み込んでインスタンス化したか
         self.is_read = False
+
+
     def counting(self):
         if self.is_read == False:
             self.is_read = True
@@ -49,6 +59,8 @@ class midi_music_sheet():
 
                         self.scale_count[msg.note%12] += 1
                         self.dur_count[dur] += 1
+
+            self.sequence = tmp_score
             scorecount = pd.DataFrame(tmp_score, columns=["NoteID","Note","Octabve","Duration","Velocity","Channel","time"])
             print(scorecount)
 
