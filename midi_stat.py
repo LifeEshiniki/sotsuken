@@ -2,6 +2,7 @@ import os,sys,re
 import mido
 import numpy as np
 import pandas as pd
+import ngram
 from matplotlib.pylab import plot as plt
 from collections import defaultdict,Counter
 
@@ -18,6 +19,8 @@ class midi_music_sheet():
         self.scale_count = {"C":0,"C#":0,"D":0,"D#":0,"E":0,"F":0,"F#":0,"G":0,"G#":0,"A":0,"A#":0,"B":0}
         #　音価のカウント
         self.dur_count = {}
+        #　音のbi-gram
+        self.bi_gram = ngram.NGram(N=2)
 
         self.is_read = False
     def counting(self):
