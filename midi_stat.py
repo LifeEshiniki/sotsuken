@@ -45,6 +45,7 @@ class midi_music_sheet():
     def show_status(self):
         print(vars(self))
 
+
     def counting(self):
         if self.is_read == False:
             self.is_read = True
@@ -82,7 +83,7 @@ class midi_music_sheet():
                         pass
 
             self.sequence = tmp_score
-            print(tmp_score)
+            #print(tmp_score)
             #scorecount = pd.DataFrame(tmp_score, columns=["NoteID","Note","Octabve","Duration","Velocity","Channel","time"])
             #print(scorecount)
 
@@ -90,19 +91,35 @@ class midi_music_sheet():
 
 
     def make_bigram(self):
-        print(self.sequence)
+        corpus = []
+        #print(self.sequence)
 
         print("hoge")
         #self.dur_bi_gram = nltk.bigrams(self.sequence[2])
-        #self.pitch_bi_gram = nltk.bigrams(self.sequence[0])
+        print(type(self.sequence))
+        print(type(self.sequence[0]))
+        for track in self.sequence:
+            for x in track:
+                corpus.append(x)
+
+
+        self.pitch_bi_gram = nltk.bigrams(corpus)
+
+
+        #self.pitch_bi_gram = nltk.bigrams(self.sequence[:, 0])
 
 
     def count_jump (self):
+        #big = nltk.bigrams(self.sequence[k for k in range(len(self.sequence))][0])
         jumps = nltk.FreqDist(self.pitch_bi_gram)
         print(jumps.items())
         return jumps
 
+
     def show_counter(self):
+        print()
+
+
 def main ():
     msheet = input("MIDIファイルの名前を入力")
     if not os.path.isfile("./" + msheet):
@@ -115,6 +132,7 @@ def main ():
             mus.make_bigram()
             jump_hist = mus.count_jump()
             count = Counter()
+            print("jumphist {}").format(jump_hist)
             for item in jump_hist.items():
                 print(item)
                 for n in range(item[1]):
