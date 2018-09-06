@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/karaoke_eval.py" afterDir="false" />
+    <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="Tsaiのアルゴリズムを考慮に入れ始めた">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/midi_stat.py" beforeDir="false" afterPath="$PROJECT_DIR$/midi_stat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karaoke_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/karaoke_eval.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +31,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="881" />
+          <entry key="py" value="1342" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="881" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="1342" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/midi_stat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="145" column="36" lean-forward="true" selection-start-line="123" selection-start-column="4" selection-end-line="145" selection-end-column="36" />
+            <state relative-caret-position="415">
+              <caret line="145" column="36" selection-start-line="123" selection-start-column="4" selection-end-line="145" selection-end-column="36" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -71,16 +72,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/karaoke_eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="85">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1536150926279" expanded="true" signature="184:729" ph="..." />
-                <marker date="1536150926279" expanded="true" signature="750:803" ph="..." />
-                <marker date="1536150926279" expanded="true" signature="826:827" ph="..." />
-                <marker date="1536150926279" expanded="true" signature="900:952" ph="..." />
-                <marker date="1536150926279" expanded="true" signature="1011:1046" ph="..." />
-                <marker date="1536150926279" expanded="true" signature="1057:1062" ph="..." />
+                <marker date="1536257970299" expanded="true" signature="231:237" ph="..." />
+                <marker date="1536257970299" expanded="true" signature="256:261" ph="..." />
+                <marker date="1536257970299" expanded="true" signature="256:1073" ph="..." />
+                <marker date="1536257970299" expanded="true" signature="394:429" ph="..." />
+                <marker date="1536257970299" expanded="true" signature="1092:1145" ph="..." />
+                <marker date="1536257970299" expanded="true" signature="1165:1166" ph="..." />
+                <marker date="1536257970299" expanded="true" signature="1237:1243" ph="..." />
+                <marker date="1536257970299" expanded="true" signature="1237:1289" ph="..." />
+                <marker date="1536257970299" expanded="true" signature="1348:1383" ph="..." />
+                <marker date="1536257970299" expanded="true" signature="1394:1399" ph="..." />
               </folding>
             </state>
           </provider>
@@ -120,7 +125,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Sotsuken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sotsuken" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,7 +155,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.midi_stat">
+  <component name="RunManager" selected="Python.karaoke_eval">
+    <configuration name="karaoke_eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Sotsuken" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/karaoke_eval.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="midi_stat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sotsuken" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,9 +222,11 @@
     <list>
       <item itemvalue="Python.scratch_1" />
       <item itemvalue="Python.midi_stat" />
+      <item itemvalue="Python.karaoke_eval" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.karaoke_eval" />
         <item itemvalue="Python.midi_stat" />
         <item itemvalue="Python.scratch_1" />
       </list>
@@ -233,19 +271,26 @@
       <option name="project" value="LOCAL" />
       <updated>1533977919628</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tsaiのアルゴリズムを考慮に入れ始めた">
+      <created>1536150953575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536150953575</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="633" y="0" width="653" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16071428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16071428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33212996" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -286,7 +331,8 @@
     <MESSAGE value="音の連続をみる" />
     <MESSAGE value="音の全集計情報を保持" />
     <MESSAGE value="音符の集計はとりあえずできたっぽい" />
-    <option name="LAST_COMMIT_MESSAGE" value="音符の集計はとりあえずできたっぽい" />
+    <MESSAGE value="Tsaiのアルゴリズムを考慮に入れ始めた" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tsaiのアルゴリズムを考慮に入れ始めた" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
@@ -302,8 +348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/midi_stat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="145" column="36" lean-forward="true" selection-start-line="123" selection-start-column="4" selection-end-line="145" selection-end-column="36" />
+        <state relative-caret-position="415">
+          <caret line="145" column="36" selection-start-line="123" selection-start-column="4" selection-end-line="145" selection-end-column="36" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
@@ -312,16 +358,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/karaoke_eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="85">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1536150926279" expanded="true" signature="184:729" ph="..." />
-            <marker date="1536150926279" expanded="true" signature="750:803" ph="..." />
-            <marker date="1536150926279" expanded="true" signature="826:827" ph="..." />
-            <marker date="1536150926279" expanded="true" signature="900:952" ph="..." />
-            <marker date="1536150926279" expanded="true" signature="1011:1046" ph="..." />
-            <marker date="1536150926279" expanded="true" signature="1057:1062" ph="..." />
+            <marker date="1536257970299" expanded="true" signature="231:237" ph="..." />
+            <marker date="1536257970299" expanded="true" signature="256:261" ph="..." />
+            <marker date="1536257970299" expanded="true" signature="256:1073" ph="..." />
+            <marker date="1536257970299" expanded="true" signature="394:429" ph="..." />
+            <marker date="1536257970299" expanded="true" signature="1092:1145" ph="..." />
+            <marker date="1536257970299" expanded="true" signature="1165:1166" ph="..." />
+            <marker date="1536257970299" expanded="true" signature="1237:1243" ph="..." />
+            <marker date="1536257970299" expanded="true" signature="1237:1289" ph="..." />
+            <marker date="1536257970299" expanded="true" signature="1348:1383" ph="..." />
+            <marker date="1536257970299" expanded="true" signature="1394:1399" ph="..." />
           </folding>
         </state>
       </provider>
