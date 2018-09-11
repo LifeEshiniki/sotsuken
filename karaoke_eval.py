@@ -17,7 +17,8 @@ class audio_obj:
         self.audio = None   #ファイル
         self.wav = None     #波形
         self.is_read = False    #ファイルを読み込んだか
-
+        self.spectrogram = None#STFTした後のリスト
+        self.note = []
 
     def read(self,file):
         self.audio = file
@@ -33,13 +34,23 @@ class audio_obj:
 
     def show_wave_spectrogram(self):
         if self.is_read == True:
-            stftobj = librosa.stft(self.wav)
-            librosa.display.specshow(np.log(np.abs(stftobj) ** 2), y_axis="log", x_axis="time")
-            plt.title('Power spectrogram')
-            plt.colorbar(format='%+2.0f dB')
-            plt.tight_layout()
-            plt.show()
+            try:
+                self.spectrogram = librosa.stft(self.wav)
+                print(type(self.spectrogram))
+                librosa.display.specshow(np.log(np.abs(a) ** 2), y_axis="log", x_axis="time")
+                plt.title('Power spectrogram')
+                plt.colorbar(format='%+2.0f dB')
+                plt.tight_layout()
+                plt.show()
+            except librosa.util.exceptions.ParameterError:
+                print(type(self.spectrogram))
 
+
+    def wave_to_midi(self):
+        a = librosa.stft(self.wav)
+        #self.note.append(np.floor(12 * np.log2(/440) + 69.5))
+
+"""
 class pitch_rating:
 
     def __init__(self):
@@ -47,7 +58,7 @@ class pitch_rating:
 
 
 
-class rhythm_rating
+class rhythm_rating:
 
     def __init__(self):
         self.score = 0.0
@@ -60,12 +71,14 @@ class volume_rating:
 def overall_score_ranker(s1,s2,s3,w1,w2,w3):
     # 重みづけ和を返す
     return w1*s1 + w2*s2 + w3*s3
+"""
 
 def main():
     print("hoge")
     file = input("オーディオファイルを入力してください")
     analyze = audio_obj()
     analyze.read(file)
+    analyze.show_wave_spectrogram()
 
 
 if __name__ == "__main__":
