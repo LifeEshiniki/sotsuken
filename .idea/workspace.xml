@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="カラオケデータのスクレイピングを始める">
-      <change afterPath="$PROJECT_DIR$/mxl2feature.py" afterDir="false" />
+    <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="musicxmlから特徴を集計するプログラムを追加">
+      <change afterPath="$PROJECT_DIR$/mxltest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape_karaoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrape_karaoke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxl2feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/mxl2feature.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,35 +16,37 @@
     <session id="-1812884987">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3762" />
-          <entry key="txt" value="51" />
+          <entry key="py" value="5231" />
+          <entry key="txt" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Python" value="3762" />
+          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="Python" value="5231" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -55,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fujii_nanido.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="51" />
+            <state relative-caret-position="595">
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="51" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -67,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/midi_stat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="145" column="36" selection-start-line="123" selection-start-column="4" selection-end-line="145" selection-end-column="36" />
+            <state relative-caret-position="1500">
+              <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -79,13 +81,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mxl2feature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="222">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1537170004532" expanded="true" signature="143:145" ph="..." />
-                <marker date="1537170004532" expanded="true" signature="172:191" ph="..." />
-                <marker date="1537170004532" expanded="true" signature="230:867" ph="..." />
+                <marker date="1538059209578" expanded="true" signature="200:672" ph="..." />
+                <marker date="1538059209578" expanded="true" signature="485:527" ph="..." />
+                <marker date="1538059209578" expanded="true" signature="513:519" ph="..." />
+                <marker date="1538059209578" expanded="true" signature="550:559" ph="..." />
+                <marker date="1538059209578" expanded="true" signature="1011:1013" ph="..." />
+                <marker date="1538059209578" expanded="true" signature="1040:1059" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mxltest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/karaoke_eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="-436">
               <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -110,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrape_karaoke.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+            <state relative-caret-position="680">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -139,14 +156,15 @@
         <option value="$PROJECT_DIR$/midi_stat.py" />
         <option value="$PROJECT_DIR$/karaoke_eval.py" />
         <option value="$PROJECT_DIR$/scrape_karaoke.py" />
+        <option value="$PROJECT_DIR$/mxltest.py" />
         <option value="$PROJECT_DIR$/mxl2feature.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,7 +188,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pysound" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -368,19 +386,26 @@
       <option name="project" value="LOCAL" />
       <updated>1536676285734</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="musicxmlから特徴を集計するプログラムを追加">
+      <created>1537198987795</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1537198987796</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="633" y="0" width="653" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49336872" visible="true" weight="0.07790143" />
-      <window_info id="Structure" order="1" sideWeight="0.5066313" side_tool="true" visible="true" weight="0.07790143" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48509485" visible="true" weight="0.1590909" />
+      <window_info id="Structure" order="1" sideWeight="0.51490515" side_tool="true" visible="true" weight="0.1590909" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291815" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33393502" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,7 +449,8 @@
     <MESSAGE value="Tsaiのアルゴリズムを考慮に入れ始めた" />
     <MESSAGE value="クラスにしてまとめた" />
     <MESSAGE value="カラオケデータのスクレイピングを始める" />
-    <option name="LAST_COMMIT_MESSAGE" value="カラオケデータのスクレイピングを始める" />
+    <MESSAGE value="musicxmlから特徴を集計するプログラムを追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="musicxmlから特徴を集計するプログラムを追加" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
@@ -435,19 +461,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrape_karaoke.py">
+    <entry file="file://$PROJECT_DIR$/midi_stat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        <state relative-caret-position="1500">
+          <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fujii_nanido.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/karaoke_eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="-436">
           <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -459,35 +495,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/midi_stat.py">
+    <entry file="file://$PROJECT_DIR$/scrape_karaoke.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="145" column="36" selection-start-line="123" selection-start-column="4" selection-end-line="145" selection-end-column="36" />
+        <state relative-caret-position="680">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fujii_nanido.py">
+    <entry file="file://$PROJECT_DIR$/mxltest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="51" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mxl2feature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state relative-caret-position="222">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1537170004532" expanded="true" signature="143:145" ph="..." />
-            <marker date="1537170004532" expanded="true" signature="172:191" ph="..." />
-            <marker date="1537170004532" expanded="true" signature="230:867" ph="..." />
+            <marker date="1538059209578" expanded="true" signature="200:672" ph="..." />
+            <marker date="1538059209578" expanded="true" signature="485:527" ph="..." />
+            <marker date="1538059209578" expanded="true" signature="513:519" ph="..." />
+            <marker date="1538059209578" expanded="true" signature="550:559" ph="..." />
+            <marker date="1538059209578" expanded="true" signature="1011:1013" ph="..." />
+            <marker date="1538059209578" expanded="true" signature="1040:1059" ph="..." />
           </folding>
         </state>
       </provider>
