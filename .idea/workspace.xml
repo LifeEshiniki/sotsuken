@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="musicxmlから特徴を集計するプログラムを追加" />
+    <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="musicxmlから特徴を集計するプログラムを追加">
+      <change beforePath="$PROJECT_DIR$/section_analysis_1002.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/section_analysis_1002.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +14,8 @@
     <session id="-1812884987">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -21,7 +23,7 @@
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mxl2feature.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -103,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/karaoke_eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="480">
               <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -116,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrape_karaoke.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            <state relative-caret-position="123">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -153,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="948" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
@@ -195,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mxl2feature">
+  <component name="RunManager" selected="Python.scrape_karaoke">
     <configuration name="karaoke_eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sotsuken" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -310,8 +312,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mxl2feature" />
         <item itemvalue="Python.scrape_karaoke" />
+        <item itemvalue="Python.mxl2feature" />
         <item itemvalue="Python.karaoke_eval" />
         <item itemvalue="Python.midi_stat" />
         <item itemvalue="Python.scratch_1" />
@@ -389,21 +391,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="632" y="0" width="654" height="688" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48468468" visible="true" weight="0.15721232" />
-      <window_info id="Structure" order="1" sideWeight="0.5153153" side_tool="true" visible="true" weight="0.15721232" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4822064" visible="true" weight="0.07710652" />
+      <window_info id="Structure" order="1" sideWeight="0.5177936" side_tool="true" visible="true" weight="0.07710652" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33274022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291815" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -483,9 +485,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mxl2feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1538059209578" expanded="true" signature="200:672" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/karaoke_eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="480">
           <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -499,26 +512,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrape_karaoke.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="123">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mxl2feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1538059209578" expanded="true" signature="200:672" ph="..." />
-            <marker date="1538059209578" expanded="true" signature="485:527" ph="..." />
-            <marker date="1538059209578" expanded="true" signature="513:519" ph="..." />
-            <marker date="1538059209578" expanded="true" signature="550:559" ph="..." />
-            <marker date="1538059209578" expanded="true" signature="1011:1013" ph="..." />
-            <marker date="1538059209578" expanded="true" signature="1040:1059" ph="..." />
           </folding>
         </state>
       </provider>
