@@ -5,6 +5,7 @@ from collections import Counter
 import pandas as pd
 import numpy as np
 
+analysis_corpus = []
 analysis_section = {0: "A melody", 1: "B melody", 2: "Sabi"}
 
 def shuukei(vocalpart):
@@ -262,7 +263,6 @@ class gakuhu_object:
 
 
 def main():
-    analysis_corpus = []
     """
     cherry = gakuhu_object("Cherry", "cherry.xml", [1, 8, 9, 15, 16, 24])
     tsunami = gakuhu_object("TSUNAMI", "TSUNAMI.xml", [1, 16, 17, 25, 25, 42])
