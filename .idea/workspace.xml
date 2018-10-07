@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="musicxmlから特徴を集計するプログラムを追加">
-      <change beforePath="$PROJECT_DIR$/section_analysis_1002.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/section_analysis_1002.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aono.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,36 +16,36 @@
         <counts>
           <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5231" />
+          <entry key="py" value="5529" />
           <entry key="txt" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="77" />
-          <entry key="Python" value="5231" />
+          <entry key="Python" value="5529" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -56,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fujii_nanido.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state>
               <caret line="35" column="51" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="51" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -80,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mxl2feature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="187">
               <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -119,12 +119,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scrape_karaoke.py">
+        <entry file="file://$PROJECT_DIR$/aono.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="157">
+              <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1538874152744" expanded="true" signature="7822:7823" ph="..." />
               </folding>
             </state>
           </provider>
@@ -152,6 +153,7 @@
         <option value="$PROJECT_DIR$/scrape_karaoke.py" />
         <option value="$PROJECT_DIR$/mxltest.py" />
         <option value="$PROJECT_DIR$/mxl2feature.py" />
+        <option value="$PROJECT_DIR$/aono.py" />
       </list>
     </option>
   </component>
@@ -160,7 +162,9 @@
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -394,8 +398,8 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4822064" visible="true" weight="0.07710652" />
-      <window_info id="Structure" order="1" sideWeight="0.5177936" side_tool="true" visible="true" weight="0.07710652" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48042706" visible="true" weight="0.07710652" />
+      <window_info id="Structure" order="1" sideWeight="0.519573" side_tool="true" visible="true" weight="0.07710652" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -457,7 +461,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fujii_nanido.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state>
           <caret line="35" column="51" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="51" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -475,6 +479,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mxl2feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1538059209578" expanded="true" signature="200:672" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mxltest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -485,13 +500,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mxl2feature.py">
+    <entry file="file://$PROJECT_DIR$/scrape_karaoke.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="123">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1538059209578" expanded="true" signature="200:672" ph="..." />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -510,12 +524,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrape_karaoke.py">
+    <entry file="file://$PROJECT_DIR$/aono.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="157">
+          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1538874152744" expanded="true" signature="7822:7823" ph="..." />
           </folding>
         </state>
       </provider>
