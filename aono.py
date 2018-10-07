@@ -261,9 +261,31 @@ class gakuhu_object:
         print("hoge")
 
 
+"""青野モデル算出のためのプログラム群"""
+def make_m_timeline(vocal):
+
+
+
+def aono_model(vocal):
+
+    m = [[3.0,1.0,2.0,1.0] * vocal.notesAndRests.streamLength]
+    """メロディの有無にかかわらず休符であっても全ての計算点に与えられる
+    1/4拍ごとに（3,1,2,1）で与えられる
+    """
+    d =
+    f =
+    l =
+    h =
+    v =
+    w =
+    p =
+
+
 
 def main():
+
     """
+    （楽譜の読み込み）
     cherry = gakuhu_object("Cherry", "cherry.xml", [1, 8, 9, 15, 16, 24])
     tsunami = gakuhu_object("TSUNAMI", "TSUNAMI.xml", [1, 16, 17, 25, 25, 42])
     roman = gakuhu_object("Roman Hikou", "roman.xml", [1, 8, 9, 16, 16, 29])
@@ -271,6 +293,7 @@ def main():
     guren = gakuhu_object("Guren No Yumiya", "guren.mxl", [12, 27, 28, 35, 36, 51])
     konayuki = gakuhu_object("Konayuki", "konayuki.mxl", [5, 26, 27, 37, 37, 45])
     """
+
     for sheets in analysis_corpus:
         sheets.show_key()
         sheets.counting_pitch()

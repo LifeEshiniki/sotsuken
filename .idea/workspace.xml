@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="musicxmlから特徴を集計するプログラムを追加">
-      <change afterPath="$PROJECT_DIR$/aono.py" afterDir="false" />
+    <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="細かなバグ修正">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aono.py" beforeDir="false" afterPath="$PROJECT_DIR$/aono.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxlshukei0927.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mxlshukei0927.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +40,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5529" />
-          <entry key="txt" value="77" />
+          <entry key="py" value="5822" />
+          <entry key="txt" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="77" />
-          <entry key="Python" value="5529" />
+          <entry key="PLAIN_TEXT" value="95" />
+          <entry key="Python" value="5822" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -121,11 +123,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aono.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
+            <state relative-caret-position="259">
+              <caret line="274" column="8" selection-start-line="274" selection-start-column="8" selection-end-line="274" selection-end-column="8" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1538874152744" expanded="true" signature="7822:7823" ph="..." />
+                <marker date="1538877849051" expanded="true" signature="7943:7947" ph="..." />
+                <marker date="1538877849051" expanded="true" signature="7970:8169" ph="..." />
               </folding>
             </state>
           </provider>
@@ -157,10 +160,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -391,15 +394,29 @@
       <option name="project" value="LOCAL" />
       <updated>1537198987796</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="青野プログラム追加">
+      <created>1538874203341</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1538874203341</updated>
+    </task>
+    <task id="LOCAL-00010" summary="細かなバグ修正">
+      <created>1538877033161</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1538877033161</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="633" y="0" width="653" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48042706" visible="true" weight="0.07710652" />
-      <window_info id="Structure" order="1" sideWeight="0.519573" side_tool="true" visible="true" weight="0.07710652" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4801444" visible="true" weight="0.15746753" />
+      <window_info id="Structure" order="1" sideWeight="0.5198556" side_tool="true" visible="true" weight="0.15746753" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -448,7 +465,9 @@
     <MESSAGE value="クラスにしてまとめた" />
     <MESSAGE value="カラオケデータのスクレイピングを始める" />
     <MESSAGE value="musicxmlから特徴を集計するプログラムを追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="musicxmlから特徴を集計するプログラムを追加" />
+    <MESSAGE value="青野プログラム追加" />
+    <MESSAGE value="細かなバグ修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="細かなバグ修正" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
@@ -526,11 +545,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aono.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
+        <state relative-caret-position="259">
+          <caret line="274" column="8" selection-start-line="274" selection-start-column="8" selection-end-line="274" selection-end-column="8" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1538874152744" expanded="true" signature="7822:7823" ph="..." />
+            <marker date="1538877849051" expanded="true" signature="7943:7947" ph="..." />
+            <marker date="1538877849051" expanded="true" signature="7970:8169" ph="..." />
           </folding>
         </state>
       </provider>
