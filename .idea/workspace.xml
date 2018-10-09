@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="細かなバグ修正">
+    <list default="true" id="e6e80044-7afb-4f01-9e71-1c9d6a7e7103" name="Default" comment="mの算出ができた">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aono.py" beforeDir="false" afterPath="$PROJECT_DIR$/aono.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mxlshukei0927.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mxlshukei0927.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +39,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="5822" />
-          <entry key="txt" value="95" />
+          <entry key="txt" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="95" />
+          <entry key="PLAIN_TEXT" value="105" />
           <entry key="Python" value="5822" />
         </counts>
       </usages-collector>
@@ -123,12 +121,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aono.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="274" column="8" selection-start-line="274" selection-start-column="8" selection-end-line="274" selection-end-column="8" />
+            <state relative-caret-position="276">
+              <caret line="275" column="7" lean-forward="true" selection-start-line="275" selection-start-column="7" selection-end-line="275" selection-end-column="7" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1538877849051" expanded="true" signature="7943:7947" ph="..." />
-                <marker date="1538877849051" expanded="true" signature="7970:8169" ph="..." />
+                <marker date="1538877945609" expanded="true" signature="7943:7947" ph="..." />
+                <marker date="1538877945609" expanded="true" signature="7970:8168" ph="..." />
               </folding>
             </state>
           </provider>
@@ -408,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538877033161</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="mの算出ができた">
+      <created>1538877960348</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1538877960348</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -467,7 +472,8 @@
     <MESSAGE value="musicxmlから特徴を集計するプログラムを追加" />
     <MESSAGE value="青野プログラム追加" />
     <MESSAGE value="細かなバグ修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="細かなバグ修正" />
+    <MESSAGE value="mの算出ができた" />
+    <option name="LAST_COMMIT_MESSAGE" value="mの算出ができた" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
@@ -545,12 +551,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aono.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="274" column="8" selection-start-line="274" selection-start-column="8" selection-end-line="274" selection-end-column="8" />
+        <state relative-caret-position="276">
+          <caret line="275" column="7" lean-forward="true" selection-start-line="275" selection-start-column="7" selection-end-line="275" selection-end-column="7" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1538877849051" expanded="true" signature="7943:7947" ph="..." />
-            <marker date="1538877849051" expanded="true" signature="7970:8169" ph="..." />
+            <marker date="1538877945609" expanded="true" signature="7943:7947" ph="..." />
+            <marker date="1538877945609" expanded="true" signature="7970:8168" ph="..." />
           </folding>
         </state>
       </provider>
