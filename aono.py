@@ -262,23 +262,30 @@ class gakuhu_object:
 
 
 """青野モデル算出のためのプログラム群"""
-def make_m_timeline(vocal):
+def make_d_timeline(vocal):
+
 
 
 
 def aono_model(vocal):
 
     m = [[3.0,1.0,2.0,1.0] * vocal.notesAndRests.streamLength]
-    """メロディの有無にかかわらず休符であっても全ての計算点に与えられる
+    """
+    M→拍頭アクセントメロディの有無にかかわらず休符であっても全ての計算点に与えられる
     1/4拍ごとに（3,1,2,1）で与えられる
     """
-    d =
+    d = make_d_timeline(vocal)
+    """
+    D→音長アクセント
+    
+    """
     f =
     l =
     h =
     v =
     w =
     p =
+
 
 
 
