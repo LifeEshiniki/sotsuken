@@ -17,7 +17,7 @@ class audio_obj:
         self.audio = None   #ファイル
         self.wav = None     #波形
         self.is_read = False    #ファイルを読み込んだか
-        self.spectrogram = None#STFTした後のリスト
+        self.spectrogram = None #STFTした後のリスト
         self.note = []
 
     def read(self,file):
@@ -26,7 +26,7 @@ class audio_obj:
             print("ファイルがありません")
         else:
             try:
-                wav, fs = librosa.load("./" + self.audio, sr=44100)
+                self.wav, fs = librosa.load("./" + self.audio, sr=44100)
                 self.is_read = True
             except OSError:
                 print("オーディオファイルではありません")
@@ -36,13 +36,14 @@ class audio_obj:
         if self.is_read == True:
             try:
                 self.spectrogram = librosa.stft(self.wav)
-                print(type(self.spectrogram))
-                librosa.display.specshow(np.log(np.abs(a) ** 2), y_axis="log", x_axis="time")
+                print("spectrogram;{}".format(type(self.spectrogram)))
+                librosa.display.specshow(np.log(np.abs(self.spectrogram) ** 2), y_axis="log", x_axis="time")
                 plt.title('Power spectrogram')
                 plt.colorbar(format='%+2.0f dB')
                 plt.tight_layout()
                 plt.show()
             except librosa.util.exceptions.ParameterError:
+                print("ParameterErrorOccured")
                 print(type(self.spectrogram))
 
 
